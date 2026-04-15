@@ -2,15 +2,15 @@ body{
     background: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
     align-items: center;
     flex-direction: column;
-    min-height: 100dvh;
     width: 100%;
-     font-family: padrao;
+    font-family: padrao;
     margin: 0px;
     align-items: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow: hidden;
 }
 @font-face {
     font-family: padrao;
