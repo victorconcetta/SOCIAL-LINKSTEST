@@ -20,8 +20,9 @@ body{
     width: 90%;
     flex-direction: column;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 13px;
     padding: 10px;
+    align-items: center;
 }
 .theheader{
     display: flex;
@@ -55,19 +56,18 @@ color: hsl(75, 94%, 57%);
  padding-top: 20px;
  padding-bottom: 20px;
  font-weight: 400;
-    color: white;
+color: white;
 }
 ul{
     list-style: none;
     display: flex;
-    width: 100%;
+    width: 90%;
     flex-direction: column;
-    text-align: center;
     padding: 0px;
     gap: 18px;
 }
 .button{
-    display: flex;
+display: flex;
  font-weight: 600;
  justify-content: center;
 align-items: center;
@@ -77,8 +77,9 @@ border-radius: 8px;
 font-size: 12pt;
 height: 40px;
 text-decoration: none;
-flex: 1;
 transition: 0.4s;
+width: 100%;
+
 }
 .button:hover{
     background: hsl(75, 94%, 57%);
